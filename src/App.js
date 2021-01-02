@@ -17,11 +17,7 @@ class App extends Component {
           Hello World!
           </p>
           <p>
-            {flag && 'Flag is true'}
-            {undefined}
-            {null}
-            {false}
-            {true}
+            {flag ? 'Flag is true' : 'Flag is false'}
           </p>
           <a
             className="App-link"
