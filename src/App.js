@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-const flag = false;
+const flag = true;
 const count = 25;
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
           Hello World!
           </p>
           <p>
-            {count}
+            {flag && 'Flag is true'}
           </p>
           <a
             className="App-link"
