@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from './number';
 
 const flag = false;
 const count = 25;
@@ -19,6 +20,9 @@ class App extends Component {
           <p>
             {flag ? 'Flag is true' : 'Flag is false'}
           </p>
+          <p>
+          { count + ' * ' + length + ' = ' + count * length}
+        </p>
           <a
             className="App-link"
             href="https://reactjs.org"
